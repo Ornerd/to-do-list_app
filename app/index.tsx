@@ -3,13 +3,15 @@ import React, { useState } from 'react';
 import {
   FlatList,
   Image,
-  SafeAreaView,
   StatusBar,
   Text,
   TextInput,
   TouchableOpacity,
   View,
 } from 'react-native';
+import {
+  SafeAreaView
+} from 'react-native-safe-area-context';
 import { api } from '../convex/_generated/api';
 
 export default function HomeScreen() {
